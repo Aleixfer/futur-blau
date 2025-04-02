@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oposicions Mossos d'Esquadra - Inici</title>
+    <link rel="stylesheet" href="styles_comu.css">
+    <style>
+        body {
+            background: url('../pagina_esborrany/imatges/20230920_mossos.png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-rows: auto auto;
+            gap: 40px;
+            justify-items: center;
+            width: 80%;
+            max-width: 900px;
+        }
+        .content-box {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .video-section {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .video-section video {
+            width: 800px;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Oposicions Mossos d'Esquadra</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="fases.html">Fases de l'oposició</a></li>
+                <li><a href="materials.html">Materials d'estudi</a></li>
+                <li><a href="entrenament.html">Entrenament físic</a></li>
+                <li><a href="mapa.html">Acadèmia amb millors resultats</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="grid-container">
+        <section class="content-box">
+            <h2>Benvingut al portal d'oposicions als Mossos d'Esquadra</h2>
+            <p>Aquí trobaràs tota la informació necessària per preparar-te i superar les proves d'accés al cos de Mossos d'Esquadra.</p>
+        </section>
+        
+        <!-- Vídeo amb més separació -->
+        <section class="video-section">
+            <video controls>
+                <source src="../pagina_esborrany/imatges/video.mp4" type="video/mp4">
+                El teu navegador no suporta la reproducció de vídeos.
+            </video>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Oposicions Mossos d'Esquadra. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa d'acadèmies</title>
+    <link rel="stylesheet" href="styles_comu.css">
+    <style>
+        .mapa-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding: 20px;
+        }
+        iframe {
+            width: 80%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border: none;
+        }
+        .info-academia {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info-academia img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mapa d'ubicació de l'acadèmia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="fases.html">Fases de l'oposició</a></li>
+                <li><a href="materials.html">Materials d'estudi</a></li>
+                <li><a href="entrenament.html">Entrenament físic</a></li>
+                <li><a href="mapa.html">Acadèmia amb millors resultats</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Ubicació de l'acadèmia</h2>
+            <p>Consulta el mapa que hem preparat per conèixer la ubicació de l'acadèmia millor valorada pels opositors.</p>
+            
+            <div class="info-academia">
+                <img src="../pagina_esborrany/imatges/logo-iopos.png" alt="Logo iOpos">
+                <p><strong>iOpos</strong> és un centre de preparació d’oposicions amb més de 20 anys d’experiència. Ofereixen suport integral als opositors amb aplicacions especialitzades i continguts útils. Els opositors trien iOpos per la seva atenció al client i la seva experiència en el sector.</p>
+            </div>
+            
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3124686764163!2d2.1281547758775714!3d41.3672954713024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a11b217582e249%3A0x3acb113f5d534d24!2siOpos%2C%20Tecnolog%C3%ADa%20aplicada%20a%20las%20oposiciones%20SL!5e0!3m2!1ses!2ses!4v1741604134504!5m2!1ses!2ses" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Oposicions Mossos d'Esquadra. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>

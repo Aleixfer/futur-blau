@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenament físic</title>
+    <link rel="stylesheet" href="styles_comu.css">
+    <style>
+        .entrenament-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .entrenament-box {
+            background: #cce5ff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .entrenament-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entrenament físic</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="fases.html">Fases de l'oposició</a></li>
+                <li><a href="materials.html">Materials d'estudi</a></li>
+                <li><a href="entrenament.html">Entrenament físic</a></li>
+                <li><a href="mapa.html">Acadèmia amb millors resultats</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Guia d'entrenament físic</h2>
+            <div class="entrenament-container">
+                <div class="entrenament-box">
+                    <img src="../pagina_esborrany/imatges/circuit.jpg" alt="Circuit d'agilitat" class="icon-entrenament">
+                    <h3>Circuit d'agilitat</h3>
+                    <p>Consells i exercicis per millorar la velocitat i reflexos.</p>
+                    <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/acces_al_cos/Mosso_a/mosso_a_46_23/prova-fisica-acces-cos-mossos/index.html#circuit-d-agilitat" target="_blank">Veure més</a>
+                </div>
+                <div class="entrenament-box">
+                    <img src="../pagina_esborrany/imatges/llançadora.jpg" alt="Cursa llançadora" class="icon-entrenament">
+                    <h3>Cursa llançadora</h3>
+                    <p>Estratègies per superar la prova de resistència.</p>
+                    <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/acces_al_cos/Mosso_a/mosso_a_46_23/prova-fisica-acces-cos-mossos/index.html#cursa-de-llancadora" target="_blank">Veure més</a>
+                </div>
+                <div class="entrenament-box">
+                    <img src="../pagina_esborrany/imatges/Pressio-sobre-banc.jpg_1502705696.jpg" alt="Proves de força" class="icon-entrenament">
+                    <h3>Proves de força</h3>
+                    <p>Estratègies i tècnica per preparar el press banca.</p>
+                    <a href="https://mossos.gencat.cat/ca/els_mossos_desquadra/acces_al_cos/Mosso_a/mosso_a_46_23/prova-fisica-acces-cos-mossos/index.html#pressio-sobre-banc" target="_blank">Veure més</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Oposicions Mossos d'Esquadra. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
