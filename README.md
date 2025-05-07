@@ -3,7 +3,7 @@ Prepara’t per guanyar: el teu futur blau comença aquí!
 
 🌐 **Presentació del projecte web: Preparació d’oposicions Mossos d’Esquadra**
 
----
+
 
 ### 🎯 1. Motivació del projecte
 
@@ -13,7 +13,7 @@ Quan vaig començar a preparar-me per a les proves d’accés al cos de Mossos d
 Per això, he creat una web que **reuneix recursos útils**, fases de l’oposició, enllaços a centres de formació i **consells pràctics** per a futurs opositors. ✅  
 Vull que altres persones que estiguin començant tinguin un **punt de partida clar, pràctic i visual**. 💡
 
----
+
 
 ### 📂 2. Dades i continguts
 
@@ -25,7 +25,7 @@ Per desenvolupar el contingut de la web he utilitzat:
 
 L’enfocament combina **informació institucional** i **experiència pràctica** per garantir rigor i utilitat.
 
----
+
 
 ### 🧱 3. Estructura de la web
 
@@ -40,7 +40,7 @@ La web està formada per diferents seccions ben definides i accessibles des del 
 
 ✔️ L'estructura facilita la navegació i cobreix totes les necessitats d’un opositor novell.
 
----
+
 
 ### 📱 4. Web responsive
 
@@ -53,7 +53,7 @@ La web ha estat dissenyada per adaptar-se a **tots els dispositius**:
 
 Tot plegat assegura una **bona experiència d’usuari**, tant a ordinador com a mòbil.
 
----
+
 
 ### 🗺️ 5. Cartografia
 
@@ -64,7 +64,7 @@ S’ha elaborat un mapa amb **QGIS**, exportat amb **qgis2web**, que mostra:
 
 Aquest recurs és **clau per ajudar els usuaris** a triar on formar-se.
 
----
+
 
 ### ⚙️ 6. Dificultats i millores
 
@@ -82,4 +82,4 @@ Aquest recurs és **clau per ajudar els usuaris** a triar on formar-se.
 - Millorar l’**accessibilitat**: text alternatiu, navegació amb teclat...
 - Implementar **validació real** del formulari i confirmació de recepció.
 
----
+
