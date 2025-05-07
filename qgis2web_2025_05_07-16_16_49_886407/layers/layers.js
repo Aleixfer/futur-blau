@@ -40,10 +40,10 @@ var lyr_punts_interes_2 = new ol.layer.Vector({
                 popuplayertitle: 'punts_interes',
                 interactive: true,
     title: 'punts_interes<br />\
-    <img src="styles/legend/punts_interes_2_0.png" /> 1<br />\
-    <img src="styles/legend/punts_interes_2_1.png" /> 2<br />\
-    <img src="styles/legend/punts_interes_2_2.png" /> 3<br />\
-    <img src="styles/legend/punts_interes_2_3.png" /> 4<br />' });
+    <img src="styles/legend/punts_interes_2_0.png" /> iOPOS<br />\
+    <img src="styles/legend/punts_interes_2_1.png" /> CAR<br />\
+    <img src="styles/legend/punts_interes_2_2.png" /> UAB<br />\
+    <img src="styles/legend/punts_interes_2_3.png" /> ISPC<br />' });
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_prov_bcn_1.setVisible(true);lyr_punts_interes_2.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,lyr_prov_bcn_1,lyr_punts_interes_2];
