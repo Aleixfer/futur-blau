@@ -300,3 +300,57 @@
   #scrollTopBtn:hover {
     background-color: #002855;
   }
+
+  .fase-box {
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-left: 5px solid #007BFF;
+    font-weight: 500;
+  }
+  
+  .fase-num {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-size: 1rem;
+  }
+  
+  .rutina-dia ul {
+    list-style: none;
+    padding-left: 0;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .rutina-dia li {
+    background-color: #e6f0ff;
+    border: 1px solid #cce0ff;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 400;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    color: #002855;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+   

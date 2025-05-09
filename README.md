@@ -23,7 +23,7 @@ Per desenvolupar el contingut de la web he utilitzat:
 - 🔗 **Enllaços oficials**: Gencat, mossos.gencat.cat i webs de centres de formació com IOpos, Passarel·la o Aula Magna.
 - 📷 **Imatges** de les proves físiques i logotips extrets de fonts oficials o creats expressament.
 
-L’enfocament combina **informació institucional** i **experiència pràctica** per garantir rigor i utilitat.
+L’enfocament combina informació institucional i experiència pràctica per garantir rigor i utilitat.
 
 
 
@@ -46,23 +46,21 @@ La web està formada per diferents seccions ben definides i accessibles des del 
 
 La web ha estat dissenyada per adaptar-se a **tots els dispositius**:
 
-- ✅ **Menú responsive** amb botó hamburguesa per a pantalles petites.  
-- ✅ **Distribució de targetes** i seccions mitjançant Bootstrap (grids, flexbox…).  
-- ✅ **Imatges adaptades** amb `.img-fluid` i contenidors flexibles.  
-- ✅ **Botó de “tornar a dalt”** per facilitar la navegació en scroll.
+- **Menú responsive** amb botó hamburguesa per a pantalles petites.  
+- **Distribució de targetes** i seccions mitjançant Bootstrap (grids, flexbox…).  
+- **Imatges adaptades** amb `.img-fluid` i contenidors flexibles.  
+- **Botó de “tornar a dalt”** per facilitar la navegació en scroll.
 
-Tot plegat assegura una **bona experiència d’usuari**, tant a ordinador com a mòbil.
+D'aquesta manera s'assegura una **bona experiència d’usuari**, en qualsevol dispositiu.
 
 
 
 ### 🗺️ 5. Cartografia
 
-S’ha elaborat un mapa amb **QGIS**, exportat amb **qgis2web**, que mostra:
+S’ha elaborat un mapa amb **QGIS**, exportat amb **qgis2web**, que mostra els punts d'interè per a un opositor:
 
-- 📍 **Acadèmies** del Camp de Tarragona amb atributs com horaris, equipaments i enllaços.
-- 🧭 Tot integrat mitjançant **Leaflet.js**, mantenint la interactivitat i adaptabilitat del mapa.
-
-Aquest recurs és **clau per ajudar els usuaris** a triar on formar-se.
+ 📍 -**L'Acadèmia** amb millors resultats i un major percentatge d'aprovats.
+    -**Les localitzacións** en les que es realitzen les diferents proves del procés selectiu.   
 
 
 
@@ -70,14 +68,13 @@ Aquest recurs és **clau per ajudar els usuaris** a triar on formar-se.
 
 #### 🔧 Dificultats trobades:
 
-- Mantenir una **estètica coherent** entre totes les pàgines.
-- Integrar **Bootstrap** sense perdre funcionalitats.
-- Ajustar el **formulari de contacte** perquè fos visual i pràctic.
-- Fer que el **mapa qgis2web** encaixés bé en una estructura responsive.
+- Mantenir una estètica coherent entre totes les pàgines.
+- Integrar Bootstrap sense perdre funcionalitats.
+- Ajustar el formulari de contacte perquè fos visual i pràctic.
+- Fer que el mapa qgis2web encaixés bé en una estructura responsive.
 
 #### 💡 Possibles millores:
 
-- Afegir un **filtre o cercador** per acadèmies o proves.
 - Crear un **apartat de preguntes freqüents (FAQs)**.
 - Millorar l’**accessibilitat**: text alternatiu, navegació amb teclat...
 - Implementar **validació real** del formulari i confirmació de recepció.
